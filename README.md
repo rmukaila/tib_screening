@@ -13,3 +13,7 @@ using keyBERT (https://github.com/MaartenGr/KeyBERT#embeddings).
 
 
 #Results
+![alt text](https://github.com/rmukaila/tib_screening/blob/master/actualANDextractedKeyPhrase.png)
+
+
+![alt text](https://github.com/rmukaila/tib_screening/blob/master/possiblePredictions_vs_actuals.png)
