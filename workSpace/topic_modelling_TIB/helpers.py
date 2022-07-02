@@ -62,7 +62,22 @@ def get_preprocessed_data(data_path):
         json_counts +=1
     return research_keyPhrase_and_sentence_dict,json_counts
     
+    
+#Create a list of the keyPhrases with the maximum cosine similarity values
+def get_predicted_keyPhrases(all_predictions):
+    higherCosineS_keyPhrases = []
+    all_keyPhrases = all_predictions
+    for item2 in all_keyPhrases:
+        max_cosine =0
+        max_cosine_phrase = None
+        for phrase_tuple in item2:
+            if phrase_tuple[1]>max_cosine:
+                max_cosine = phrase_tuple[1]
+                max_cosine_phrase = phrase_tuple[0]
 
+        higherCosineS_keyPhrases.append(max_cosine_phrase)
+        
+    return higherCosineS_keyPhrases
     
     
 #Code for exploring the data (structure)
