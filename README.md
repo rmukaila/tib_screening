@@ -30,7 +30,7 @@ wrong predictions are coming from wrong assignment of cosine similarity values.
 
 
 TABLE 2: Actual research problem phrase as column names and all predicted/extracted phrases
-          and their cosine similarity values.
+          and their cosine similarity values as items in the columns.
 ![alt text](https://github.com/rmukaila/tib_screening/blob/master/possiblePredictions_vs_actuals.png)
 
 
